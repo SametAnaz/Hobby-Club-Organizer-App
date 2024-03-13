@@ -1,10 +1,10 @@
 /**
 
 @file CalculatorTest.java
-@brief This file contains the test cases for the Calculator class.
-@details This file includes test methods to validate the functionality of the Calculator class. It uses JUnit for unit testing.
+@brief This file contains the test cases for the HobbyClubOrganizer class.
+@details This file includes test methods to validate the functionality of the HobbyClubOrganizer class. It uses JUnit for unit testing.
 */
-package com.ucoruh.calculator;
+package com.ucoruh.hobbycluborganizer;
 
 import static org.junit.Assert.*;
 
@@ -17,11 +17,11 @@ import org.junit.Test;
 /**
 
 @class CalculatorTest
-@brief This class represents the test class for the Calculator class.
-@details The CalculatorTest class provides test methods to verify the behavior of the Calculator class. It includes test methods for addition, subtraction, multiplication, and division operations.
+@brief This class represents the test class for the HobbyClubOrganizer class.
+@details The CalculatorTest class provides test methods to verify the behavior of the HobbyClubOrganizer class. It includes test methods for addition, subtraction, multiplication, and division operations.
 @author ugur.coruh
 */
-public class CalculatorTest {
+public class HobbyClubOrganizerTest {
 
   /**
    * @brief This method is executed once before all test methods.
@@ -58,12 +58,12 @@ public class CalculatorTest {
   /**
    * @brief Test method to validate the addition operation.
    *
-   * @details This method creates an instance of the Calculator class and calls the `add` method with two integers. It asserts the expected result of the addition operation.
+   * @details This method creates an instance of the HobbyClubOrganizer class and calls the `add` method with two integers. It asserts the expected result of the addition operation.
    */
   @Test
   public void testAddition() {
-    Calculator calculator = new Calculator();
-    int result = calculator.add(2, 3);
+    HobbyClubOrganizer hobbycluborganizer = new HobbyClubOrganizer();
+    int result = hobbycluborganizer.add(2, 3);
     assertEquals(5, result);
   }
 
